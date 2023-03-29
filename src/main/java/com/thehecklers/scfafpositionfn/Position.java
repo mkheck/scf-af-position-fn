@@ -7,7 +7,7 @@ public class Position {
     private int altitude, heading, speed, vertRate, selectedAltitude;
     private double lat, lon, barometer;
 
-    // Azure Functions now requires an undocumented no-args ctor
+    // No args ctor required by Azure Functions
     public Position() {
     }
 
